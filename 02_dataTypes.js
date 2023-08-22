@@ -3,7 +3,9 @@
 let name = "Sachin";
 let age = 23;
 let isLoggedIn = true;
-let city;
+let city; //undefined
+let id=Symbol(112);
+let anotherId=Symbol(112); // if i pass same value to symbol it gives different values
 
 //null: stand alone value retun type object
 //undefined: declared variale with no value;
