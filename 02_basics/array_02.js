@@ -23,3 +23,9 @@ console.log(result);
 const name = "SachinBiradar";
 console.log(Array.isArray(name)); //false :its is string 
 console.log(Array.from(name)); // [S', 'a', 'c', 'h','i', 'n', 'B', 'i',r', 'a', 'd', 'a','r'];
+
+//if u want to add all variable into array use of() 
+const num = 100;
+const num2 = 200;
+const num3 = 300;
+console.log(Array.of(num, num2, num3))// set of ele include and form new array
