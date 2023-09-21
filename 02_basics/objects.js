@@ -21,6 +21,10 @@ console.log(myObj.name);//while giving .dot no need to use string
 console.log(myObj.firstName)
 
 //second one:use this for best practice 
+
 console.log(myObj["city"]); //behind the scene city is a string so put it in string
 console.log(myObj["hobies"][1]);
 console.log(myObj[mySym]);
+
+myObj.city = "Hyderbad";
+console.log(myObj)
