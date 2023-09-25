@@ -80,3 +80,14 @@ function callName(name = "Sachin") { //here no need to apply any condition as we
     return `Your name is : ${name}`
 }
 console.log(callName());
+
+
+//suppose if user is passing multiple arguments for one parameter than how to handle
+// this can be done by using rest operator
+//rest operator: print all the arguments into one array
+function calculateAdd(...num){ //rest operator ...num
+    return num;
+}
+console.log(calculateAdd(2)); //i ll get output as 2
+//if i give more arguments in function invocation than i need to use as rest opertor i order to print those value
+console.log(calculatAdd(2,4,23,65));//o/p:[2,4,23,65]; beacuse of using rest operator
