@@ -5,6 +5,7 @@ console.log("dont print more");
 const fs = require("fs");
 fs.writeFileSync("hello.js", "hello");
 
+fs.writeFileSync("data.js", "data");
 //createSever(request,response): to use createServer we need to require http server
 //by taking response from createserverwe can use all responses methods
 //once we use method donot forgot to end the response 
@@ -16,3 +17,7 @@ http
     resp.end();
   })
   .listen(8080);
+
+  //here we can do add ,remove the file using process.argv
+  //
+
