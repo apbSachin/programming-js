@@ -1,5 +1,5 @@
 //global module: which we are not importing or bydefault modules
-console.log("hello");
+console.log("dont print more");
 
 //nonglobal : we are importing some outside modules
 const fs = require("fs");
